@@ -19,6 +19,15 @@
 		8305CFA91865C15A00D75140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8305CF911865C15A00D75140 /* UIKit.framework */; };
 		8305CFB11865C15A00D75140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8305CFAF1865C15A00D75140 /* InfoPlist.strings */; };
 		8305CFB31865C15A00D75140 /* CriticalInfrastructureFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305CFB21865C15A00D75140 /* CriticalInfrastructureFrameworkTests.m */; };
+		8305CFBD1865C1D800D75140 /* CIFStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305CFBC1865C1D800D75140 /* CIFStoryboard.storyboard */; };
+		8305D0051866618300D75140 /* RegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D0041866618200D75140 /* RegionsViewController.m */; };
+		8305D008186662E100D75140 /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D007186662E100D75140 /* Region.m */; };
+		8305D014186702AA00D75140 /* RegionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D013186702AA00D75140 /* RegionalViewController.m */; };
+		8305D0171867031400D75140 /* RegionalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D0161867031400D75140 /* RegionalData.m */; };
+		8305D01A1867DA8D00D75140 /* RegionalViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D0191867DA8D00D75140 /* RegionalViewCell.m */; };
+		8305D01D1867ECF900D75140 /* UtilitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D01C1867ECF900D75140 /* UtilitiesViewController.m */; };
+		8305D0201867ED1A00D75140 /* MedicalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D01F1867ED1A00D75140 /* MedicalViewController.m */; };
+		8305D1121869BC0D00D75140 /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305D1111869BC0D00D75140 /* SegmentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,23 @@
 		8305CFAE1865C15A00D75140 /* CriticalInfrastructureFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CriticalInfrastructureFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		8305CFB01865C15A00D75140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8305CFB21865C15A00D75140 /* CriticalInfrastructureFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriticalInfrastructureFrameworkTests.m; sourceTree = "<group>"; };
+		8305CFBC1865C1D800D75140 /* CIFStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CIFStoryboard.storyboard; sourceTree = "<group>"; };
+		8305D0031866618200D75140 /* RegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionsViewController.h; sourceTree = "<group>"; };
+		8305D0041866618200D75140 /* RegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionsViewController.m; sourceTree = "<group>"; };
+		8305D006186662E100D75140 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		8305D007186662E100D75140 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		8305D012186702AA00D75140 /* RegionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalViewController.h; sourceTree = "<group>"; };
+		8305D013186702AA00D75140 /* RegionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalViewController.m; sourceTree = "<group>"; };
+		8305D0151867031400D75140 /* RegionalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalData.h; sourceTree = "<group>"; };
+		8305D0161867031400D75140 /* RegionalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalData.m; sourceTree = "<group>"; };
+		8305D0181867DA8D00D75140 /* RegionalViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalViewCell.h; sourceTree = "<group>"; };
+		8305D0191867DA8D00D75140 /* RegionalViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalViewCell.m; sourceTree = "<group>"; };
+		8305D01B1867ECF900D75140 /* UtilitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilitiesViewController.h; sourceTree = "<group>"; };
+		8305D01C1867ECF900D75140 /* UtilitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesViewController.m; sourceTree = "<group>"; };
+		8305D01E1867ED1A00D75140 /* MedicalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalViewController.h; sourceTree = "<group>"; };
+		8305D01F1867ED1A00D75140 /* MedicalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalViewController.m; sourceTree = "<group>"; };
+		8305D1101869BC0D00D75140 /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
+		8305D1111869BC0D00D75140 /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +103,24 @@
 		8305CF811865C15A00D75140 = {
 			isa = PBXGroup;
 			children = (
+				8305D1101869BC0D00D75140 /* SegmentViewController.h */,
+				8305D1111869BC0D00D75140 /* SegmentViewController.m */,
+				8305D01E1867ED1A00D75140 /* MedicalViewController.h */,
+				8305D01F1867ED1A00D75140 /* MedicalViewController.m */,
+				8305D01B1867ECF900D75140 /* UtilitiesViewController.h */,
+				8305D01C1867ECF900D75140 /* UtilitiesViewController.m */,
+				8305D0181867DA8D00D75140 /* RegionalViewCell.h */,
+				8305D0191867DA8D00D75140 /* RegionalViewCell.m */,
+				8305D0151867031400D75140 /* RegionalData.h */,
+				8305D0161867031400D75140 /* RegionalData.m */,
+				8305D012186702AA00D75140 /* RegionalViewController.h */,
+				8305D013186702AA00D75140 /* RegionalViewController.m */,
+				8305D006186662E100D75140 /* Region.h */,
+				8305D007186662E100D75140 /* Region.m */,
+				8305D0031866618200D75140 /* RegionsViewController.h */,
+				8305D0041866618200D75140 /* RegionsViewController.m */,
+				8305D00218665F6200D75140 /* images */,
+				8305CFBC1865C1D800D75140 /* CIFStoryboard.storyboard */,
 				8305CF931865C15A00D75140 /* CriticalInfrastructureFramework */,
 				8305CFAC1865C15A00D75140 /* CriticalInfrastructureFrameworkTests */,
 				8305CF8C1865C15A00D75140 /* Frameworks */,
@@ -142,6 +186,13 @@
 				8305CFAF1865C15A00D75140 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8305D00218665F6200D75140 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8305CFBD1865C1D800D75140 /* CIFStoryboard.storyboard in Resources */,
 				8305CF981865C15A00D75140 /* InfoPlist.strings in Resources */,
 				8305CFA01865C15A00D75140 /* Images.xcassets in Resources */,
 			);
@@ -239,8 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8305D0051866618300D75140 /* RegionsViewController.m in Sources */,
 				8305CF9E1865C15A00D75140 /* AppDelegate.m in Sources */,
+				8305D0201867ED1A00D75140 /* MedicalViewController.m in Sources */,
+				8305D01A1867DA8D00D75140 /* RegionalViewCell.m in Sources */,
+				8305D0171867031400D75140 /* RegionalData.m in Sources */,
 				8305CF9A1865C15A00D75140 /* main.m in Sources */,
+				8305D008186662E100D75140 /* Region.m in Sources */,
+				8305D014186702AA00D75140 /* RegionalViewController.m in Sources */,
+				8305D1121869BC0D00D75140 /* SegmentViewController.m in Sources */,
+				8305D01D1867ECF900D75140 /* UtilitiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,57 @@
 //
 
 #import "AppDelegate.h"
+#import "RegionsViewController.h"
+#import "RegionalViewController.h"
+#import "Region.h"
 
 @implementation AppDelegate
+{
+    NSMutableArray *_regions;
+   //  NSMutableArray *_regional;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+   // self.window.backgroundColor = [UIColor whiteColor];
+   // [self.window makeKeyAndVisible];
+    _regions = [NSMutableArray arrayWithCapacity:20];
+  
+    
+    Region *region = [[Region alloc] init];
+    region.regionName = @"West144";
+    region.regionStat1 = @"Hospitals:";
+    region.regionStat2 = @"Community Centers:";
+    
+    [_regions addObject:region];
+    
+     region = [[Region alloc] init];
+    region.regionName = @"Center144";
+    region.regionStat1 = @"Hospitals:";
+    region.regionStat2 = @"Community Centers:";
+    
+    [_regions addObject:region];
+    
+     region = [[Region alloc] init];
+    region.regionName = @"Center-West144";
+    region.regionStat1 = @"Hospitals:";
+    region.regionStat2 = @"Community Centers:";
+    
+    [_regions addObject:region];
+    
+    
+    
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UINavigationController *navigationController = [tabBarController viewControllers][0];
+    RegionsViewController *regionsViewController = [navigationController viewControllers][0];
+    
+    regionsViewController.regions = _regions;
+    
+  
+    
     return YES;
 }
 
